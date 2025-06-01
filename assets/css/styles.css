@@ -1,0 +1,45 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.card {
+    border-radius: 0.75rem;
+    transition: transform 0.2s ease;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h5 {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.card .display-4 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.list-group-item {
+    border-left: 4px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    border-left: 4px solid #0d6efd;
+    background-color: #f8f9fa;
+}
